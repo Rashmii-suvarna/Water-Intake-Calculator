@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Smart Water Intake Calculator</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <div class="container">
+    <h1> Smart Water Intake Calculator</h1>
+
+    <form id="waterForm">
+      <label for="weight">Your weight (kg):</label>
+      <input type="number" id="weight" placeholder="Enter your weight" required />
+
+      <label for="activity">Activity level:</label>
+      <select id="activity" required>
+        <option value="0">Select</option>
+        <option value="1">Sedentary</option>
+        <option value="2">Lightly active</option>
+        <option value="3">Moderately active</option>
+        <option value="4">Very active</option>
+      </select>
+
+      <label for="weather">What's the weather like today?</label>
+      <select id="weather">
+        <option value="normal">Mild</option>
+        <option value="hot">Hot</option>
+        <option value="cold">Cold</option>
+      </select>
+
+      <label>
+        <input type="checkbox" id="exercised" />
+        Did you exercise today?
+      </label>
+
+      <label>
+        <input type="checkbox" id="caffeine" />
+        Consumed caffeine or alcohol today?
+      </label>
+
+      <label for="consumedWater">Water already consumed (liters):</label>
+      <input type="number" step="0.1" id="consumedWater" placeholder="e.g. 0.5" />
+
+      <button type="submit">Calculate</button>
+    </form>
+
+    <div id="result" class="result"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
