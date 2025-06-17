@@ -29,7 +29,7 @@ A responsive and interactive web application that calculates the ideal daily wat
 1. Clone or download this repository:
    bash
    git clone https://github.com/itsme-Rashmi/Water-Intake-Calculator.git
-   cd water-intake-calculator
+   cd Water-Intake-Calculator
 
 
    📁 Project Structure
