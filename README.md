@@ -11,7 +11,6 @@ A responsive and interactive web application that calculates the ideal daily wat
   - Exercise and caffeine/alcohol consumption
 - Provides clear hydration recommendations
 - Tracks how much water has already been consumed
-- Mobile-responsive and user-friendly design
 - Clean and modern UI with real-time results
 
 
