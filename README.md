@@ -22,14 +22,7 @@ A responsive and interactive web application that calculates the ideal daily wat
 - JavaScript – Core logic and interactivity
 
 ---
-
-## 🚀 Getting Started
-
-1. Clone or download this repository:
-   bash
-   git clone https://github.com/itsme-Rashmi/Water-Intake-Calculator.git
-   cd Water-Intake-Calculator
-
+```
 
    📁 Project Structure
 
@@ -38,4 +31,15 @@ water-intake-calculator/
 ├── styles.css       # CSS styles
 ├── script.js        # JavaScript logic
 └── README.md        # Project documentation
+```
+
+## 🚀 Getting Started
+
+1. Clone or download this repository:
+   
+   bash
+   
+   git clone https://github.com/itsme-Rashmi/Water-Intake-Calculator.git
+   
+   cd Water-Intake-Calculator
 
